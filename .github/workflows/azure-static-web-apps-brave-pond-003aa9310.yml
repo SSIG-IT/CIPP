@@ -4,10 +4,11 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
-      - main
+# Auskommentiert / CIPP Configuring Automatic Updates: Remove the following lines
+#  pull_request:
+#    types: [opened, synchronize, reopened, closed]
+#    branches:
+#      - main
 
 jobs:
   build_and_deploy_job:
